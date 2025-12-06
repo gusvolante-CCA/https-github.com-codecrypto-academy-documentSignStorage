@@ -1,0 +1,28 @@
+# Compiler files
+cache/
+out/
+
+# Ignores development broadcast logs
+!/broadcast
+/broadcast/*/31337/
+/broadcast/**/dry-run/
+
+# Docs
+docs/
+
+# Dotenv file
+.env
+
+# archivos temporales
+*.swp
+$.txt
+
+# carpetas de compilación de Foundry
+out/
+cache/
+
+# evitar subir dependencias de Foundry
+lib/
+
+# archivos temporales de VSCode
+.vscode/
